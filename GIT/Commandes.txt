@@ -1,0 +1,139 @@
+Codeshare logo
+ ShareSign UpLog In
+1
+//une ligne égale une commande à taper dans le terminal
+2
+// ceci n'est en aucun cas du code de programmation
+3
+​
+4
+//permet de connaître le répertoire où l'on se trouve :
+5
+pwd
+6
+​
+7
+//permet de vider le terminal
+8
+clear
+9
+//on peut faire la même chose avec un clic droit dans le terminal et l'option
+10
+//"Effacer"
+11
+​
+12
+//vous pouvez auto compléter le nom d'un dossier ou d'un fichier
+13
+//avec la touche tabulation
+14
+​
+15
+//afficher la liste des fichiers dans le répertoire courant
+16
+ls
+17
+ls -al
+18
+​
+19
+//se déplacer dans l'arborescence via le terminal
+20
+cd nomdurepertoirequinousinteresse
+21
+//revenir au répertoire parent
+22
+cd ..
+23
+​
+24
+//On peut utiliser la touche tabulation pour automatiquement complèter le nom d'un fichier ou d'un sous répertoire
+25
+​
+26
+//On peut utiliser les touches flèches haut et bas du clavier pour retrouver d'ancienne commande taper précedemment
+27
+​
+28
+//initialiser le répertoire ou l'on utilise git
+29
+//définit votre utilisateur git de manière global
+30
+git config --global user.name "tppro"
+31
+git config --global user.author "Tristan PLUMET"
+32
+git config --global user.email "tristan@plumet.com"
+33
+​
+34
+//vérifier les paramètres utilisateur
+35
+git config --list
+36
+//(lettre q du clavier pour quitter)
+37
+​
+38
+//initialisation du répertoire pour travailler avec git
+39
+git init
+40
+​
+41
+//voir l'état des fichiers
+42
+git status
+43
+​
+44
+//rajouter des fichiers à la prochaine sauvegarde dans git
+45
+//ajoute tous les fichiers
+46
+git add .
+47
+git add *
+48
+//ajoute index.html
+49
+git add index.html
+50
+//ajoute index.html et command_terminal.txt
+51
+git add index.html command_terminal.txt
+52
+​
+53
+//sauvegarder les fichiers ajouter dans git
+54
+git commit -m "premier commit dans git"
+55
+​
+56
+//voir la liste des différents commit (revision)
+57
+git log
+58
+​
+59
+//exemple de checkout
+60
+//pour revenir à une version précise de nos fichiers
+61
+git checkout a397bced65406384f1fb3a77fe39c8455544787e
+62
+git checkout a397bced65406384f1fb3a77fe39c8455544787e index.html
+63
+git checkout 663af796367225abab00961cbc64f033ec765a20 index.html
+
+
+
+JOBS
+
+
+SPONSORCompany image
+DigitalOcean
+A quick, easy, and intuitive way to build, deploy, manage, and scale your apps.
+px
+Hide Ads
